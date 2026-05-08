@@ -1,0 +1,18 @@
+# Zależności (paczki NPM)
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Zmienne środowiskowe i sekrety (BARDZO WAŻNE!)
+.env
+backend/.env
+frontend/.env
+
+# Pliki tymczasowe Expo i React Native
+.expo/
+frontend/.expo/
+npm-debug.log
+
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
